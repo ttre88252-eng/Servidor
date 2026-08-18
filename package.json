@@ -1,0 +1,15 @@
+{
+  "name": "servidor-archivos-consola",
+  "version": "1.0.0",
+  "description": "Servidor de archivos local multiusuario, estilo consola, para correr en Termux",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "multer": "^1.4.5-lts.1",
+    "cookie-parser": "^1.4.6"
+  }
+}
